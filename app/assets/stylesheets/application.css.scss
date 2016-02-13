@@ -28,6 +28,10 @@ $dark_grey: #3f3d4e;
 
 // - - - - - - - - - - - - - - Global Styles - - - - - - - - - - - - - - - - - - 
 
+body {
+	font-family: "Didact Gothic", sans-serif;
+}
+
 .wrapper {
 	width: 1440px;
 	max-width: 90%;
@@ -47,5 +51,13 @@ $dark_grey: #3f3d4e;
 	
 	#logo {
 		color: $white;
+		font-weight: 700;
+		font-size: 1.35rem;
+		float: left;
+		margin: 0;
+		
+		span {
+			font-weight: 400;
+		}
 	}
 }
