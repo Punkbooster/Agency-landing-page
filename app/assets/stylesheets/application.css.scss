@@ -44,7 +44,7 @@ body {
 	padding: .6rem 3rem;
 	font-weight: 700;
 	color: $white;
-	text-decoration: none;
+	text-decoration: none !important;
 	text-align: center;
 }
 
@@ -125,3 +125,5 @@ body {
 		}
 	}
 }
+
+// - - - - - - - - - - - - - - Services Styles - - - - - - - - - - - - - - - - - - 
