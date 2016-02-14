@@ -64,6 +64,16 @@ body {
 	padding: .3rem 1.5rem;
 }
 
+.cf:after,
+.cf:before {
+	content: " ";
+	display: table;
+}
+
+.cf:after {
+	clear: both;
+}
+
 // - - - - - - - - - - - - - - Banner Styles - - - - - - - - - - - - - - - - - - 
 
 #banner {
